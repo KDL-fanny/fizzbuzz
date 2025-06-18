@@ -20,7 +20,7 @@ docker run --name my-fizzbuzz-container my-fizzbuzz-image 100
 ```
 最大値として 100 を指定して、1 から 100 までの FizzBuzz 結果が表示されます。
 
-##実行例（実際の出力結果を含む）
+## 実行例（実際の出力結果を含む）
 最大値として 100 を指定すると、以下のように出力されます
 ```bash
 1
@@ -131,20 +131,19 @@ Buzz
 
 ## その他情報
 1. 既存のコンテナを停止の場合
-まず、現在の my-fizzbuzz-container を停止します。
+   まず、現在の my-fizzbuzz-container を停止します。
 ```bash
 docker stop my-fizzbuzz-container
 ```
 
 2. 既存のコンテナを削除の場合
-その後、停止したコンテナを削除します。
-
+   その後、停止したコンテナを削除します。
 ```bash
 docker rm my-fizzbuzz-container
 ```
 
 3. 新しいコンテナを実行
-既存のコンテナを削除した後、新しいコンテナを実行します。
+   既存のコンテナを削除した後、新しいコンテナを実行します。
 ```bash
 docker run --name my-fizzbuzz-container my-fizzbuzz-image 100
 ```
