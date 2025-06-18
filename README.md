@@ -12,7 +12,7 @@ docker build -t my-fizzbuzz-image .
 ```
 このコマンドで my-fizzbuzz-image という名前の Docker イメージが作成されます。
 
-## ビルド方法
+## 実行方法
 ビルドが完了したら、以下のコマンドでコンテナを実行します。引数として最大値を指定してください。
 （例：100）
 ```bash
